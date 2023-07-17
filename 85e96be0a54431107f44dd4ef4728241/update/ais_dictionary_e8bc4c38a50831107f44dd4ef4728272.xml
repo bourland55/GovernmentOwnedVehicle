@@ -8,12 +8,12 @@
         <derived>true</derived>
         <field/>
         <label>Domicile to Duty Request Fulfiller  search profile Default Spell Check Dictionary</label>
-        <last_derived/>
+        <last_derived>2023-07-17 14:12:29</last_derived>
         <locale>en</locale>
         <name>x_snc_government_0_domicile_to_duty_request_fulfiller_search_profile_default_spell_check_dictionary</name>
-        <publish_id/>
+        <publish_id>7d2414e1-0a32-4c61-8e9c-e563df47abcf</publish_id>
         <punctuation_sensitive>false</punctuation_sensitive>
-        <state>NEW</state>
+        <state>PUBLISHED</state>
         <sys_class_name>ais_dictionary</sys_class_name>
         <sys_created_by>nicholas.m.daly.civ@mail.mil</sys_created_by>
         <sys_created_on>2023-07-12 17:07:27</sys_created_on>

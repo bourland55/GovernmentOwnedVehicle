@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="02ba6b24a54431107f44dd4ef4728218" label="Domicile to Duty Request" max_length="40" name="x_snc_government_0_domicile_to_duty_request" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element choice="1" label="Decrease in Weekly Mileage" mandatory="true" max_length="40" name="decrease_in_weekly_mileage" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element label="Driver License State" max_length="40" name="driver_license_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Employee" max_length="32" name="employee" reference="sys_user" type="reference"/>
+        <element label="Home Address" max_length="1000" name="home_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Increase Efficiency" mandatory="true" max_length="40" name="increase_efficiency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Increase Flexibility" mandatory="true" max_length="40" name="increase_flexibility" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element choice="1" label="Increase of Productive Hours" mandatory="true" max_length="40" name="increase_of_productive_hours" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Meets Regulation" mandatory="true" max_length="40" name="meets_regulation" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Miles Closer to Work Area" max_length="40" name="miles_closer_to_work_area" type="integer"/>
+        <element default="javascript:getNextObjNumberPadded();" display="true" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" read_only="true" type="string" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Office Location" max_length="32" name="office_location" reference="cmn_location" type="reference"/>
+        <element label="Parking Location" mandatory="true" max_length="40" name="parking_location" type="string"/>
+        <element label="Planned End" max_length="40" name="planned_end" type="glide_date"/>
+        <element label="Planned Start" max_length="40" name="planned_start" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Status" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending Supervisor Approval" sequence="0" value="pending_supervisor_approval"/>
+                <element inactive_on_update="false" label="Pending 2nd Level Supervisor Approval" sequence="1" value="pending_2nd_level_supervisor_approval"/>
+                <element inactive_on_update="false" label="Closed Complete" sequence="2" value="4"/>
+                <element inactive_on_update="false" label="Closed Incomplete" sequence="3" value="5"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Supervisor" max_length="40" name="supervisor" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="employee"/>
+        </index>
+        <index name="index2">
+            <element name="office_location"/>
+        </index>
+        <index name="index3">
+            <element name="supervisor"/>
+        </index>
+    </element>
+</database>

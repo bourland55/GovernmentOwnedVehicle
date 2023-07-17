@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Domicile to Duty Request">9071bf2ca54431107f44dd4ef472824b</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-17 14:07:51</sys_created_on>
+        <sys_id>3683119e4784f5d0412ec035126d43c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Domicile to Duty Request.SNC External</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Government Owned Vehicles">85e96be0a54431107f44dd4ef4728241</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_3683119e4784f5d0412ec035126d43c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-17 14:07:51</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+</record_update>

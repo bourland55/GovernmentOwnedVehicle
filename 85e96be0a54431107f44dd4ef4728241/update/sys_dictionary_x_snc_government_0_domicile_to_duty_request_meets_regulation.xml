@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="meets_regulation" table="x_snc_government_0_domicile_to_duty_request">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-12 15:04:28</sys_created_on>
-        <sys_id>12ee2b28a54431107f44dd4ef4728230</sys_id>
         <sys_name>Meets Regulation</sys_name>
         <sys_package display_value="Government Owned Vehicles" source="x_snc_government_0">85e96be0a54431107f44dd4ef4728241</sys_package>
         <sys_policy/>

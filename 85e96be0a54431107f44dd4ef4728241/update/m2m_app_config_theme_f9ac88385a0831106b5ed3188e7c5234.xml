@@ -18,6 +18,7 @@
         <sys_updated_by>nicholas.m.daly.civ@mail.mil</sys_updated_by>
         <sys_updated_on>2023-07-12 17:07:18</sys_updated_on>
         <theme display_value="Starter Workspace Theme">fdac88386808311050820b5bda98d132</theme>
+        <u_original_theme/>
         <ux_app_configuration display_value="Domicile to Duty Request Fulfiller  Config">3dac8838fd08311034f548510cf48438</ux_app_configuration>
     </m2m_app_config_theme>
 </record_update>

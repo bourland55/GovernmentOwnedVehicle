@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="increase_efficiency" table="x_snc_government_0_domicile_to_duty_request" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="meets_regulation" table="x_snc_government_0_domicile_to_duty_request" version="3">
         <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>increase_efficiency</element>
+            <element>meets_regulation</element>
             <name>x_snc_government_0_domicile_to_duty_request</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>nicholas.m.daly.civ@mail.mil</sys_created_by>
             <sys_created_on>2023-07-12 15:48:55</sys_created_on>
-            <sys_id>86baff2ca58431107f44dd4ef47282ed</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>increase_efficiency</sys_name>
+            <sys_name>meets_regulation</sys_name>
             <sys_package display_value="Government Owned Vehicles" source="x_snc_government_0">85e96be0a54431107f44dd4ef4728241</sys_package>
             <sys_policy/>
             <sys_scope display_value="Government Owned Vehicles">85e96be0a54431107f44dd4ef4728241</sys_scope>
-            <sys_update_name>sys_choice_x_snc_government_0_domicile_to_duty_request_increase_efficiency</sys_update_name>
+            <sys_update_name>sys_choice_x_snc_government_0_domicile_to_duty_request_meets_regulation</sys_update_name>
             <sys_updated_by>nicholas.m.daly.civ@mail.mil</sys_updated_by>
             <sys_updated_on>2023-07-12 15:48:55</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>increase_efficiency</element>
+            <element>meets_regulation</element>
             <hint/>
             <inactive>false</inactive>
             <label>Yes</label>
@@ -30,7 +29,6 @@
             <sys_created_on>2023-07-12 15:48:55</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>02baff2ca58431107f44dd4ef47282ed</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>nicholas.m.daly.civ@mail.mil</sys_updated_by>
             <sys_updated_on>2023-07-12 15:48:55</sys_updated_on>
@@ -38,7 +36,7 @@
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>increase_efficiency</element>
+            <element>meets_regulation</element>
             <hint/>
             <inactive>false</inactive>
             <label>No</label>
@@ -50,7 +48,6 @@
             <sys_created_on>2023-07-12 15:48:55</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>8ebaff2ca58431107f44dd4ef47282ee</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>nicholas.m.daly.civ@mail.mil</sys_updated_by>
             <sys_updated_on>2023-07-12 15:48:55</sys_updated_on>
