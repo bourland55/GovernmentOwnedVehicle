@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_snc_government_0_domicile_to_duty_request">x_snc_government_0_domicile_to_duty_request</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>DTD</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-12 18:19:42</sys_created_on>
+        <sys_id>2e2d9030a58831107f44dd4ef47282eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DTD</sys_name>
+        <sys_package display_value="Government Owned Vehicles" source="x_snc_government_0">85e96be0a54431107f44dd4ef4728241</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Government Owned Vehicles">85e96be0a54431107f44dd4ef4728241</sys_scope>
+        <sys_update_name>sys_number_2e2d9030a58831107f44dd4ef47282eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-12 18:19:42</sys_updated_on>
+    </sys_number>
+</record_update>

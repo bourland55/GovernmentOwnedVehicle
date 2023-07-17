@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="planned_end" label="Planned End" language="en" table="x_snc_government_0_domicile_to_duty_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>planned_end</element>
+            <help/>
+            <hint/>
+            <label>Planned End</label>
+            <language>en</language>
+            <name>x_snc_government_0_domicile_to_duty_request</name>
+            <plural>Planned Ends</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-12 14:48:24</sys_created_on>
+            <sys_id>73dcabe4a54431107f44dd4ef47282b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Planned End</sys_name>
+            <sys_package display_value="Government Owned Vehicles" source="x_snc_government_0">85e96be0a54431107f44dd4ef4728241</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Government Owned Vehicles">85e96be0a54431107f44dd4ef4728241</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_government_0_domicile_to_duty_request_planned_end_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-12 14:48:24</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

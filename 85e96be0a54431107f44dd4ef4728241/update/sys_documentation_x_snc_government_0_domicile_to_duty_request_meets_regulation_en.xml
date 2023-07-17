@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="meets_regulation" label="Meets Regulation" language="en" table="x_snc_government_0_domicile_to_duty_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>meets_regulation</element>
+            <help/>
+            <hint/>
+            <label>Meets Regulation</label>
+            <language>en</language>
+            <name>x_snc_government_0_domicile_to_duty_request</name>
+            <plural>Meets Regulations</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-12 15:04:29</sys_created_on>
+            <sys_id>d380732ca54431107f44dd4ef47282e3</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Meets Regulation</sys_name>
+            <sys_package display_value="Government Owned Vehicles" source="x_snc_government_0">85e96be0a54431107f44dd4ef4728241</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Government Owned Vehicles">85e96be0a54431107f44dd4ef4728241</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_government_0_domicile_to_duty_request_meets_regulation_en</sys_update_name>
+            <sys_updated_by>nicholas.m.daly.civ@mail.mil</sys_updated_by>
+            <sys_updated_on>2023-07-12 15:50:23</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_ribbon_config">
+    <sys_ux_ribbon_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Domicile to Duty Request Fulfiller  Ribbon Config</description>
+        <name>Domicile to Duty Request Fulfiller  Ribbon Config</name>
+        <sys_class_name>sys_ux_ribbon_config</sys_class_name>
+        <sys_created_by>nicholas.m.daly.civ@mail.mil</sys_created_by>
+        <sys_created_on>2023-07-12 17:07:18</sys_created_on>
+        <sys_id>79ac8838fd08311038677b4f3a6b3931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Domicile to Duty Request Fulfiller  Ribbon Config</sys_name>
+        <sys_package display_value="Government Owned Vehicles" source="x_snc_government_0">85e96be0a54431107f44dd4ef4728241</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Government Owned Vehicles">85e96be0a54431107f44dd4ef4728241</sys_scope>
+        <sys_update_name>sys_ux_ribbon_config_79ac8838fd08311038677b4f3a6b3931</sys_update_name>
+        <sys_updated_by>nicholas.m.daly.civ@mail.mil</sys_updated_by>
+        <sys_updated_on>2023-07-12 17:07:18</sys_updated_on>
+    </sys_ux_ribbon_config>
+</record_update>

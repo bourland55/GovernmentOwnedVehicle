@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="Will this increase the flexibility required to accomplish the mission during non-standard duty hours?">f871776ca54431107f44dd4ef47282d3</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-12 16:33:00</sys_created_on>
+        <sys_id>f8c4cc3ca5c431107f44dd4ef47282d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>No</sys_name>
+        <sys_package display_value="Government Owned Vehicles" source="x_snc_government_0">85e96be0a54431107f44dd4ef4728241</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Government Owned Vehicles">85e96be0a54431107f44dd4ef4728241</sys_scope>
+        <sys_update_name>question_choice_f8c4cc3ca5c431107f44dd4ef47282d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-12 16:33:00</sys_updated_on>
+        <text>No</text>
+        <value>No</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=f8c4cc3ca5c431107f44dd4ef47282d4"/>
+</record_update>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_government_0.GovOwnedVehiclesUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>GovOwnedVehiclesUtils</name>
+        <script><![CDATA[var GovOwnedVehiclesUtils = Class.create();
+GovOwnedVehiclesUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	getManager: function() {
+		
+		var managerSysID;
+		
+		var user = new GlideRecord('sys_user');
+		user.get(gs.getUserID());
+		user.query();
+		
+		while(user.next()){
+			managerSysID = user.manager;
+		}
+		return managerSysID;
+	},
+	type: 'GovOwnedVehiclesUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-12 17:16:29</sys_created_on>
+        <sys_id>f37e483ca50831107f44dd4ef472828c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>GovOwnedVehiclesUtils</sys_name>
+        <sys_package display_value="Government Owned Vehicles" source="x_snc_government_0">85e96be0a54431107f44dd4ef4728241</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Government Owned Vehicles">85e96be0a54431107f44dd4ef4728241</sys_scope>
+        <sys_update_name>sys_script_include_f37e483ca50831107f44dd4ef472828c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-12 17:21:10</sys_updated_on>
+    </sys_script_include>
+</record_update>
